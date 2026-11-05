@@ -1,0 +1,12 @@
+EmployeeId,SamAccountName,Status,TerminatedAtUtc
+EMP001,amelia.green,Terminated,2026-10-20T10:00:00Z
+EMP002,marcus.wright,Terminated,2026-10-15T16:00:00Z
+EMP003,nina.chen,Terminated,2026-09-30T18:00:00Z
+EMP004,oliver.davis,Terminated,2026-10-01T16:00:00Z
+EMP005,zoe.patel,Terminated,2026-10-25T09:00:00Z
+EMP006,liam.brooks,Terminated,2026-10-10T20:00:00Z
+EMP007,ava.roberts,Scheduled,2026-11-20T18:00:00Z
+EMP008,daniel.kim,Terminated,2026-11-05T23:00:00Z
+EMP009,celia.mendez,Terminated,2026-11-01T13:00:00Z
+EMP010,kofi.adams,Terminated,2026-10-01T12:00:00Z
+EMP011,amina.diallo,Terminated,2026-10-20T12:00:00Z

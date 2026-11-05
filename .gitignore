@@ -1,0 +1,16 @@
+# Reports can contain personal and access information. Never commit them.
+output/*
+!output/.gitkeep
+*.log
+*.tmp
+.DS_Store
+.vscode/
+
+# Local-only evidence and secrets
+private/
+private-reports/
+real-data/
+secrets/
+.env
+*.pfx
+*.key

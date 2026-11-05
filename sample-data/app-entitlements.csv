@@ -1,0 +1,23 @@
+EmployeeId,Application,Entitlement,State,IsPrivileged,CollectedAtUtc,EvidenceSource
+EMP001,VPN,VPN-User,Revoked,False,2026-11-05T10:00:00Z,Synthetic export
+EMP001,M365,Basic,Disabled,False,2026-11-05T10:00:00Z,Synthetic export
+EMP002,VPN,VPN-User,Active,False,2026-11-05T10:00:00Z,Synthetic export
+EMP002,M365,Basic,Enabled,False,2026-11-05T10:00:00Z,Synthetic export
+EMP003,VPN,VPN-User,Revoked,False,2026-11-05T10:00:00Z,Synthetic export
+EMP003,M365,Basic,Disabled,False,2026-11-05T10:00:00Z,Synthetic export
+EMP003,AdminConsole,RootAdmin,Active,True,2026-11-05T10:00:00Z,Synthetic export
+EMP004,VPN,VPN-User,Revoked,False,2026-11-05T10:00:00Z,Synthetic export
+EMP004,M365,Basic,Disabled,False,2026-11-05T10:00:00Z,Synthetic export
+EMP005,M365,Basic,Unknown,False,2026-11-05T10:00:00Z,Synthetic export
+EMP006,VPN,VPN-User,Active,False,2026-10-01T10:00:00Z,Synthetic export
+EMP006,M365,Basic,Disabled,False,2026-11-05T10:00:00Z,Synthetic export
+EMP007,VPN,VPN-User,Active,False,2026-11-05T10:00:00Z,Synthetic export
+EMP007,M365,Basic,Enabled,False,2026-11-05T10:00:00Z,Synthetic export
+EMP008,VPN,VPN-User,Active,False,2026-11-05T10:00:00Z,Synthetic export
+EMP008,M365,Basic,Enabled,False,2026-11-05T10:00:00Z,Synthetic export
+EMP009,VPN,VPN-User,Revoked,False,2026-11-05T10:00:00Z,Synthetic export
+EMP009,M365,Basic,Revoked,False,2026-11-05T10:00:00Z,Synthetic export
+EMP010,VPN,VPN-User,Revoked,False,2026-11-05T10:00:00Z,Synthetic export
+EMP010,M365,Basic,Revoked,False,2026-11-05T10:00:00Z,Synthetic export
+EMP011,VPN,VPN-User,Unknown,False,2026-11-05T10:00:00Z,Synthetic export
+EMP011,M365,Basic,Revoked,False,2026-11-05T10:00:00Z,Synthetic export

@@ -1,0 +1,12 @@
+EmployeeId,SamAccountName,Found,Enabled,CollectedAtUtc,GroupEvidenceComplete,GroupCollectedAtUtc
+EMP001,amelia.green,True,False,2026-11-05T10:00:00Z,True,2026-11-05T10:00:00Z
+EMP002,marcus.wright,True,True,2026-11-05T10:00:00Z,True,2026-11-05T10:00:00Z
+EMP003,nina.chen,True,False,2026-11-05T10:00:00Z,True,2026-11-05T10:00:00Z
+EMP004,oliver.davis,True,False,2026-11-05T10:00:00Z,True,2026-11-05T10:00:00Z
+,zoe.patel,False,,2026-11-05T10:00:00Z,False,
+EMP006,liam.brooks,True,False,2026-10-15T10:00:00Z,False,
+EMP007,ava.roberts,True,True,2026-11-05T10:00:00Z,True,2026-11-05T10:00:00Z
+EMP008,daniel.kim,True,True,2026-11-05T10:00:00Z,True,2026-11-05T10:00:00Z
+EMP099,celia.mendez,True,False,2026-11-05T10:00:00Z,True,2026-11-05T10:00:00Z
+EMP010,kofi.adams,True,False,2026-11-05T10:00:00Z,True,2026-11-05T10:00:00Z
+EMP011,amina.diallo,True,False,2026-11-05T10:00:00Z,True,2026-11-05T10:00:00Z

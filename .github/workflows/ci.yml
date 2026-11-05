@@ -1,0 +1,30 @@
+name: PowerShell verifier CI
+on:
+  push:
+  pull_request:
+permissions:
+  contents: read
+jobs:
+  test:
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ubuntu-latest, windows-latest]
+    runs-on: ${{ matrix.os }}
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install Pester 5
+        shell: pwsh
+        run: |
+          Install-Module -Name Pester -MinimumVersion 5.5.0 -Force -Scope CurrentUser -SkipPublisherCheck
+      - name: Run Pester tests
+        shell: pwsh
+        run: |
+          Import-Module Pester -MinimumVersion 5.5.0
+          Invoke-Pester -Path ./tests -CI -Output Detailed
+      - name: Verify demo command and output artifacts
+        shell: pwsh
+        run: |
+          $result = ./Invoke-OffboardingVerification.ps1 -Mode Csv -AsOfUtc '2026-11-05T12:00:00Z'
+          if ($result.Summary.TotalFindings -ne 15) { throw 'Synthetic fixture expectations changed.' }
+          if (-not (Test-Path -LiteralPath $result.Reports.Html)) { throw 'HTML report missing.' }

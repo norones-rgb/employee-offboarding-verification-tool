@@ -1,0 +1,10 @@
+{
+  "schemaVersion": 1,
+  "gracePeriodHours": 24,
+  "maxEvidenceAgeHours": 168,
+  "baselineGroups": ["Domain Users"],
+  "privilegedGroups": ["Domain Admins", "Enterprise Admins", "Schema Admins", "Administrators", "Account Operators"],
+  "requiredApplications": ["VPN", "M365"],
+  "activeStates": ["Active", "Enabled"],
+  "inactiveStates": ["Disabled", "Revoked", "Removed"]
+}
