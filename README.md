@@ -1,5 +1,12 @@
 # Employee Offboarding Verification Tool
 
+> **IAM Automation Toolkit · Project 2/5** | Read-only PowerShell evaluation MVP · Synthetic-first design
+>
+> [**Portfolio directory**](https://github.com/norones-rgb/ad-ldap-exception-risk-analyzer/blob/main/IAM-AUTOMATION-PORTFOLIO.md) · [**Run the demo**](DEMO.md) · [**Sample HTML preview**](docs/fixture-preview.html) · [**Windows/Linux CI**](https://github.com/norones-rgb/employee-offboarding-verification-tool/actions/workflows/ci.yml)
+>
+> [![Pester CI](https://github.com/norones-rgb/employee-offboarding-verification-tool/actions/workflows/ci.yml/badge.svg)](https://github.com/norones-rgb/employee-offboarding-verification-tool/actions/workflows/ci.yml) · PowerShell 7.2+ · CSV / JSON / offline HTML output
+
+
 **Read-only PowerShell IAM control validation | MVP v0.1**
 
 Reconcile an authoritative HR termination feed with an Active Directory snapshot, direct group membership evidence, and application entitlement exports. Produce **exception findings and a review matrix** in CSV, JSON, and an offline HTML dashboard. All committed sample identities are **synthetic**.
